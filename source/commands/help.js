@@ -12,6 +12,6 @@ exports.run = (client, message, args) =>{
         {name: "Trending", value: "Get a currently trending post. \n **Usage:** t!trending \n"},
         {name: "Help", value: "Sends This Help Message \n **Usage:** t!help\n"}
         )
-        .setFooter("TikTok Utilities by LachlanDev#8014", "https://cdn.discordapp.com/app-icons/779968259671457792/184465ca744886f62b39f100b52de9a0.png?")
+        .setFooter("Bot Made By LachlanDev#8014, Improved by Alexa", "https://cdn.discordapp.com/app-icons/779968259671457792/184465ca744886f62b39f100b52de9a0.png?")
     message.channel.send({embed: help })
 };
